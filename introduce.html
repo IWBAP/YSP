@@ -3,47 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>YSP</title>
-        <style>
-            body {
-                margin:0;
-            }
-            
-            h1 {
-                text-align: center;
-                padding:20px;
-                margin:0;
-            }
-            div {
-                border:3px solid black;
-            }
-            #grid{
-                display:grid;
-                grid-template-columns: 200px 1fr;
-                margin:0;
-            }
-        </style>
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1><span style="color: gold">Yong's</span> Project</h1>
-        <div id="grid">
-            <div>
+        <h1 class="shadow1">Yong's Project</h1>
+        <div class="menu">
+            <nav>
                 <ul>
-                    <li><h2><a href="index.html" style="text-decoration-line: none; color: black">Home</a></h2></li>
-                    <li><h2><a href="introduce.html" style="text-decoration-line: none; color: black">Introduce</a></h2></li>
-                    <li><h2><a href="schedule1.html" target="_brank" style="text-decoration-line: none; color: black">Schedule</a></h2></li>
+                    <div class="box1"><li><h3><a href="index.html" style="text-decoration-line: none; color: black">홈으로</a></h3></li></div>
+                    <div class="box1"><li><h3><a href="introduce.html" style="text-decoration-line: none; color: black">소 개</a></h3></li></div>
+                    <div class="box1"><li><h3><a href="schedule1.html" target="_brank" style="text-decoration-line: none; color: black">시간표</a></h3></li></div>
+                    <div class="box1"><li><h3><a href="project.html" target="_brank" style="text-decoration-line: none; color:black">소스 공유</a></h3></li></div>
                 </ul>
-            </div>
-            <div><img src="schedule.jpg" width="100%"></div>
+            </nav>
         </div>
+        <img src="schedule.jpg" width="100%" class="image">
         <fieldset>
             <legend style="text-align: center"><h1>Introduce</h1></legend>
-            <h1 style="text-align: left">Dae yong Kim</h1>
+            <h1 style="text-align: left">DaeYong Kim</h1>
             <blockquote>
                 <ul>
-                    <li><font size="5">Sex</font> : <u>Man</u></li>
-                    <li><font size="5">Birthday</font> : <u>1993.07.22</u></li>
-                    <li><font size="5">Job</font> : <u>Student</u>(<a href="http://www.wku.ac.kr" target="_brank" style="text-decoration-line: none; color:tomato">Wongwang Univ</a>, <a href="http://japan.wku.ac.kr/" style="text-decoration-line: none; color:orange">College of Education - Japanese Edu</a>)</li>
-                    <li><font size="5">Interest</font> : <u>HTML</u>, <u>CSS</u>, <u>Javascript</u></li>
+                    <li><font size="4">성별</font> : <u>남자</u></li>
+                    <li><font size="4">생일</font> : <u>1993.07.22</u></li>
+                    <li><font size="4">직업</font> : <u>학생</u>(<a href="http://www.wku.ac.kr" target="_brank" style="text-decoration-line: none; color:tomato">원광대학교</a>, <a href="http://japan.wku.ac.kr/" style="text-decoration-line: none; color:orange">사범대학 일어교육과</a>)</li>
+                    <li><font size="4">흥미</font> : <u>HTML</u>, <u>CSS</u>, <u>Javascript</u></li>
                 </ul>
             </blockquote>
 
